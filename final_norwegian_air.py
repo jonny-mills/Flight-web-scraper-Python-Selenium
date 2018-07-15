@@ -15,11 +15,7 @@ Created on Wed May  9 17:12:25 2018
 """
 
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-This is a temporary script file.
-"""
 ##########################
 ######IMPORT SELENIUM#####
 ##########################
@@ -27,23 +23,16 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException 
-
-##import exporting to csv stuff
-#import csv
+import pandas as pd
 
 #set working directory
 import os
-path="/Users/default/Desktop/Python Spyder"
-os.chdir(path)
+#path="/Users/default/Desktop/Python Spyder"
+#os.chdir(path)
 
-#set working directory
-import os
-path="/Users/default/Desktop/Python Spyder"
-os.chdir(path)
-   
-
+  
 ##########################
-######FUCTIONS ###########
+######FUNCTIONS ###########
 ##########################    
 def check_exists_by_xpath(xpath):
     try:
@@ -174,9 +163,6 @@ for i in range(1,32):
 print(date)
 
 
-
-
-import pandas as pd
 df = pd.DataFrame({'Date':date})
 df['price'] = minimum_price_list
 df['flight_info'] = flight_info_min_price
