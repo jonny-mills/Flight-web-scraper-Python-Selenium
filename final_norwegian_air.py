@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 23 15:07:28 2018
-
-@author: default
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  9 17:12:25 2018
-
-@author: default
-"""
-
-# -*- coding: utf-8 -*-
-
 ##########################
 ######IMPORT SELENIUM#####
 ##########################
